@@ -8,7 +8,7 @@ body {
   background-color: #d9dcd6;
 }
 
-header {
+.header {
   padding: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
@@ -16,16 +16,16 @@ header {
   color: #ffffff;
 }
 
-header h1 {
+.header h1 {
   display: inline-block;
   font-size: 48px;
 }
 
-header h1 .seo {
+.header h1 .seo {
   color: #d9dcd6;
 }
 
-header nav {
+.header div {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
@@ -33,11 +33,11 @@ header nav {
   font-size: 20px;
 }
 
-header ul {
+.header div ul {
   list-style-type: none;
 }
 
-header ul li {
+.header div ul li {
   display: inline-block;
   margin-left: 25px;
 }
@@ -51,7 +51,7 @@ p {
   font-size: 16px;
 }
 
-main {
+.hero {
   height: 800px;
   width: 100%;
   margin-bottom: 25px;
@@ -189,7 +189,7 @@ main {
   font-size: 36px;
 }
 
-footer {
+.footer {
   padding: 30px;
   clear: both;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
@@ -197,6 +197,6 @@ footer {
   text-align: center;
 }
 
-footer h2 {
+.footer h2 {
   font-size: 20px;
 }
